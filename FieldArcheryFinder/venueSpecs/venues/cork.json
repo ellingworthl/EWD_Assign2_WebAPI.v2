@@ -1,0 +1,30 @@
+{
+    "id": "Cork",
+
+    "name": "South Cork Field Archers",
+
+    "description": "The woods are situated on a gental slope leading to the bottom of the hill where a small stream runs through the bottom. The woods have a mix of evergreen and deciduous making for great shooting conditions.", 
+
+    "venue": {
+        "type": "Outdoor range", 
+        "link": "http://southcorkfieldarchers.ie/"
+    }, 
+	
+	"association": [
+	"Irish Field Archery Federation (IFAF)"
+    ], 
+	
+    "facilities": {
+        "parking": "Yes", 
+        "toilet": "Yes", 
+        "refreshments": "No", 
+        "other": "N/A"
+    },     
+
+    "directions": "From the N27, after Cork Airport, take the R600 to Riverstick. In the village take the L3206 and follow local 'shoot' signage.", 
+
+     "images": [
+        "img/phones/Cork1.jpg", 
+        "img/phones/Cork.jpg" 
+    ] 
+}

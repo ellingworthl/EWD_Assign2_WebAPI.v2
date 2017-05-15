@@ -1,0 +1,31 @@
+{
+    "id": "Mayo",
+
+    "name": "Mayo Archery Club (MAC)",
+
+    "description": "MAC have access to beautiful, mature woodland. The woods, being their permanent shoot grounds, also have infastructure such as shooting platforms built.", 
+
+    "venue": {
+        "type": "Outdoor range", 
+        "link": "https://https://www.facebook.com/mayoarchery/?fref=ts"
+    }, 
+	
+	"association": [
+	"Irish Field Archery Federation (IFAF)"
+    ], 
+	
+    "facilities": {
+        "parking": "Yes", 
+        "toilet": "Yes", 
+        "refreshments": "Tea & coffee available", 
+        "other": "N/A"
+    },     
+
+    "directions": "Take the N26 to Ballina. Take the N59 to Crossmolina. Then follow local 'shoot' signage after exiting Ballina.",  
+
+    "images": [
+        "img/phones/Mayo1.jpg",
+        "img/phones/Mayo2.jpg",        
+        "img/phones/Mayo.jpg" 
+    ] 
+}

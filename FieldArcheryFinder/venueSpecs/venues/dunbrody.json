@@ -1,0 +1,32 @@
+{
+    "id": "Dunbrody",
+
+    "name": "Dunbrody Archers",
+
+    "description": "Dunbrody Archers' shoot grounds have acres of woodland available. Two courses have been set-up todate; one on spare open terrain and the other in light deciduous woodland. The club also have an indoor shooting range at the New Ross Youth Centre, where the club meets 1-2 times per week", 
+
+    "venue": {
+        "type": "Outdoor & Indoor ranges", 
+        "link": "http://dunbrodyarchers.com/"
+    }, 
+	
+	"association": [
+	"Irish Field Archery Federation (IFAF)"
+    ], 
+	
+    "facilities": {
+        "parking": "Yes", 
+        "toilet": "Yes", 
+        "refreshments": "Yes - tea & coffee available (Outdoor only)", 
+        "other": "Camping on-site at woods"
+    },     
+
+    "directions": "Outdoor: From New Ross, take the N25 Wexford - New Ross road. At the Horse & Hound Hotel turn onto the R736. Then follow local 'shoot' signage. Indoor: 'New Ross Youth Center', Google directions https://goo.gl/maps/MfedFWbV7ND2 ", 
+
+
+    "images": [
+        "img/phones/Dunbrody2.jpg",
+        "img/phones/Dunbrody1.jpg", 
+        "img/phones/Dunbrody.jpg" 
+    ] 
+}
