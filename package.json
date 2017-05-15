@@ -1,0 +1,41 @@
+{
+  "name": "fieldarcheryfinder",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^4.0.0",
+    "mocha": "^3.3.0",
+    "mochawesome": "^2.1.0",
+    "mockgoose": "^7.3.1",
+    "nodemon": "^1.11.0",
+    "should": "^11.2.1",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "auth0-lock": "^10.15.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.9.6",
+    "react-scripts": "^0.8.5"
+  },
+  "scripts": {
+    "start": "nodemon --ignore FieldArcheryFinder/* --exec babel-node server.js",
+    "test": "cross-env NODE_ENV=test mocha --compilers js:babel-core/register  --reporter mochawesome"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  },
+  "description": "Name: Lynn Ellingworth",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ellingworthl/EWD_Assign2_WebAPI.v2.git"
+  },
+  "author": "Lynn Ellingworth",
+  "license": "ISC"
+}

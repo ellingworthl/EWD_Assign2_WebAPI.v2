@@ -1,6 +1,6 @@
 # Assignment 2 - Web AIP integration with ReactJS app.
 
-Name: Lynn Ellingworth
+Name: Lynn Ellingworth (ID 20077694)
 
 ## Overview.
 My hobby is field archery. When I first started out I found that it was quite difficult to find some shoot grounds, particularly those set on Coilte forestry as road signage is pretty scarce a lot of the time. I also remember when I was new to field archery that I couldn't 'just' look-up details about the club/venue as their information wasn't persistent on the associations' website at the time. The third thing is as we are a small community we often comment it would be nice to be able to post 'shoot reviews' to share with the host club, archers in the same target group and the wider community... if only we had such a facility?
@@ -84,7 +84,11 @@ Having these facilities on one site would be terribly handy and would have a bro
  + A user must install MongoDB (e.g. e.g. C:\Program Files\MongoDB)
  + After installing, create a data and db file in the same directory as MongoDb installed (e.g. C:\data\db)
  
+<<<<<<< HEAD
  To view the application, clone it from the repository (https://github.com/ellingworthl/EWD_Assign2_WebAPI_Rebuild.git)
+=======
+ To view the application, clone it from the repository (https://github.com/ellingworthl/EWD_Assign2_WebAPI.v2.git)
+>>>>>>> origin/master
  1) Start Node server (port 27017)
  + Open Explorer window in MongoDB's bin folder (e.g. C:\Program Files\MongoDB\Server\3.4\bin)
  + double-click on mongod.exe to launch
