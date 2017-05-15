@@ -84,11 +84,7 @@ Having these facilities on one site would be terribly handy and would have a bro
  + A user must install MongoDB (e.g. e.g. C:\Program Files\MongoDB)
  + After installing, create a data and db file in the same directory as MongoDb installed (e.g. C:\data\db)
  
-<<<<<<< HEAD
- To view the application, clone it from the repository (https://github.com/ellingworthl/EWD_Assign2_WebAPI_Rebuild.git)
-=======
  To view the application, clone it from the repository (https://github.com/ellingworthl/EWD_Assign2_WebAPI.v2.git)
->>>>>>> origin/master
  1) Start Node server (port 27017)
  + Open Explorer window in MongoDB's bin folder (e.g. C:\Program Files\MongoDB\Server\3.4\bin)
  + double-click on mongod.exe to launch
