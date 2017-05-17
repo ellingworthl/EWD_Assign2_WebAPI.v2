@@ -14,7 +14,7 @@ Having these facilities on one site would be terribly handy and would have a bro
 ### Assignment 2 - extension of ReactJS SPA App from Assignment 1
  + Events
  Persistent data from API (JSON file) listed on Events screen
- Ability to add an event using Round, Venue and Date fields (data saved to local storage)
+ Ability to add an event using Round, Venue and Date fields (data saved to local storage).
  Ability to edit an event (data saved to local storage)
  Ability to delete an event (data removed from local storage) 
  Ability to cancel changes applied to restore/revert to original event data (no update saved to local storage)
@@ -36,7 +36,8 @@ Having these facilities on one site would be terribly handy and would have a bro
 ![][image5]
 
 ![][image6]
- 
+
+
 ### Assignment 1 - SPA ReactJS App (Exisiting Features)
  + Reviews
  Persistent data from API (JSON file) listed on Review screen
@@ -67,8 +68,8 @@ Having these facilities on one site would be terribly handy and would have a bro
  + should@11.2.1
  + supertest@3.0.0
  
- Assignment 1 - Client / SPA App folder "FieldArcheryFinder"
- + axios@0.16.1
+ Assignment 1 - Client / SPA App folder "FieldArcheryFinder" 
+ + axios@0.15.3
  + bootstrap@3.3.7
  + css-loader@0.27.3
  + lodash@2.4.2
@@ -78,7 +79,7 @@ Having these facilities on one site would be terribly handy and would have a bro
  + react-router@2.8.1
  + react-scripts@0.2.1
  + superagent@1.8.5
-
+ 
 
  TO LAUNCH APPLICATION FOR ASSIGNMENT 2
  + A user must install MongoDB (e.g. e.g. C:\Program Files\MongoDB)
@@ -139,17 +140,31 @@ Having these facilities on one site would be terribly handy and would have a bro
  + venueDetailApp.js (updated)
  + venueDetailApi.js (new)  
  
- Images show Events as an example:
+ Images show Events code as an example:
  ![][image15]
  
  ![][image16]
 
- In order to view the data from MongoDB in the FAF App it was necessary to rebuild the project in a clean folder structure. This workaround enabled the db data to render on the Event and Reviews pages, but I have a cosmetic issue with images in the slider not being recognised:
- Events - Add, Edit & Delete all write back to the db from the UI:
-![][image11.1] 
+ In order to view the data from MongoDB in the FAF App it was necessary to rebuild the project in a clean folder structure. This workaround enabled the db data to render on the Event and Reviews pages. Howver, this rebuild version currently has cosmetic issue with images in the slider not being recognised.
  
- Reviews - Add writes a review back to the db:
-![][image11.2] 
+ Additional features added to the ReactApp once database integration occured
+ + Events: Data type set to "date" to enforce valid data entry via UI, also creates feature of calendar/date dropdown for all browser-types except Firefox.
+ + Reviews: Additional input field added to the Reviews page to support "username" entry.
+ 
+ Events - Get returns data to the UI and Add, Edit & Delete all write back to the db from the UI:
+![][image11.01] 
+
+![][image11.02] 
+
+![][image11.03] 
+
+![][image11.04] 
+ 
+ Reviews - Get returns data to the UI and Add writes a review back to the db:
+![][image11.05] 
+
+![][image11.06] 
+
 
  Using Robomongo, a visual tool designed to help manage Database MongoDB, the images below show two of the four API's loaded into MongoDB as Collections (Details & Venues) in the FAF database
 ![][image8] 
@@ -286,6 +301,10 @@ Assignment 1
 + Notepad++ - text editor tool (used in conjunction with Sublime)
 + Robomongo - a MongoDB management tool with GUI interaction & Command line shell capabilities
 
+
+## Other information
++ The supporting powerpoint, "EWD_AssignmentOverview.pptx", gives a full overview of both Assignement 1 and Assignment 2
+
 [image1]: ./ReadMe_Images/Assignment2_VenueFAFCode.png
 [image2]: ./ReadMe_Images/Assignment2_VenueCode.png
 [image3]: ./ReadMe_Images/Assignment2_Design.png
@@ -293,7 +312,12 @@ Assignment 1
 [image5]: ./ReadMe_Images/Assignment2_FullScreen.png
 [image6]: ./ReadMe_Images/Assignment2_CollapsedScreen.png
 [image8]: ./ReadMe_Images/Assign2_Robomongo_Details&Venues.png
-[image11.1]: ./ReadMe_Images/Assign2_Events_SPA-Mongo.png
+[image11.01]: ./ReadMe_Images/EWD_Assing2_WebAPI.v2_EventsApp_Get.png
+[image11.02]: ./ReadMe_Images/EWD_Assing2_WebAPI.v2_EventsApp_Add.png
+[image11.03]: ./ReadMe_Images/EWD_Assing2_WebAPI.v2_EventsApp_Edit.png
+[image11.04]: ./ReadMe_Images/EWD_Assing2_WebAPI.v2_EventsApp_Delete.png
+[image11.05]: ./ReadMe_Images/EWD_Assing2_WebAPI.v2_ReviewsApp_Get.png
+[image11.06]: ./ReadMe_Images/EWD_Assing2_WebAPI.v2_ReviewsApp_Add.png
 [image11.2]: ./ReadMe_Images/Assign2_Reviews_SPA-Mongo.png
 [image12]: ./ReadMe_Images/Assign2_Mocha_Events-Reviews.png
 [image13]: ./ReadMe_Images/Assign2_Mocha_Venue-Details.png
